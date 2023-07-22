@@ -103,7 +103,7 @@ class MenuViewController: UIViewController {
         
         if self.traitCollection.hasDifferentColorAppearance(comparedTo: previousTraitCollection) {
             if self.traitCollection.userInterfaceStyle == .dark {
-                view.backgroundColor = .black
+                view.backgroundColor = .systemGray6
                 setButtonTitleColor(.white)
             } else {
                 view.backgroundColor = .white

@@ -47,6 +47,7 @@ class ViewController: UIViewController {
     @objc func openButtonTapped() {
         let menuViewController = MenuViewController()
         if let sheet = menuViewController.sheetPresentationController {
+            
             sheet.prefersGrabberVisible = true
             sheet.preferredCornerRadius = 24
             let fraction = UISheetPresentationController.Detent.custom {

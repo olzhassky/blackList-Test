@@ -32,6 +32,10 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         tableView.dataSource = self
         tableView.frame = view.bounds
         view.addSubview(tableView)
+       // tableView.separatorStyle = .singleLine
+        tableView.separatorColor = .systemBlue
+        
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -53,10 +57,9 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
           } else {
               cell.textLabel?.textColor = product.selected ? .gray : .black
           }
-
-
         return cell
     }
+    
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         
