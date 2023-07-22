@@ -51,7 +51,7 @@ class ViewController: UIViewController {
             sheet.prefersGrabberVisible = true
             sheet.preferredCornerRadius = 24
             let fraction = UISheetPresentationController.Detent.custom {
-                context in return 200
+                context in return 270
             }
             sheet.detents = [fraction, .medium()]
         }
