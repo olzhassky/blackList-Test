@@ -23,7 +23,7 @@
 		6319C7942A6ABC170083DC17 /* singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6319C7932A6ABC170083DC17 /* singleton.swift */; };
 		634C40F92A6C7FC900B6999E /* TrySecondOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C40F82A6C7FC900B6999E /* TrySecondOption.swift */; };
 		634C40FB2A6C837E00B6999E /* SecondUiTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C40FA2A6C837E00B6999E /* SecondUiTable.swift */; };
-		634C40FF2A6C947B00B6999E /* README in Resources */ = {isa = PBXBuildFile; fileRef = 634C40FE2A6C947B00B6999E /* README */; };
+		634C40FF2A6C947B00B6999E /* toDo in Resources */ = {isa = PBXBuildFile; fileRef = 634C40FE2A6C947B00B6999E /* toDo */; };
 		CAF04AEA2A6ACC2600A1A8EF /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF04AE92A6ACC2600A1A8EF /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,7 +63,7 @@
 		6319C7932A6ABC170083DC17 /* singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleton.swift; sourceTree = "<group>"; };
 		634C40F82A6C7FC900B6999E /* TrySecondOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrySecondOption.swift; sourceTree = "<group>"; };
 		634C40FA2A6C837E00B6999E /* SecondUiTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondUiTable.swift; sourceTree = "<group>"; };
-		634C40FE2A6C947B00B6999E /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		634C40FE2A6C947B00B6999E /* toDo */ = {isa = PBXFileReference; lastKnownFileType = text; path = toDo; sourceTree = "<group>"; };
 		CAF04AE92A6ACC2600A1A8EF /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,11 +117,10 @@
 		6319C74E2A6844B20083DC17 /* blackList */ = {
 			isa = PBXGroup;
 			children = (
-				634C40FE2A6C947B00B6999E /* README */,
+				634C40FE2A6C947B00B6999E /* toDo */,
 				634C40FD2A6C931000B6999E /* SecondOption */,
 				6319C7892A68B5500083DC17 /* Assistant */,
 				6319C7882A68B5270083DC17 /* Menu */,
-				6319C7582A6844B40083DC17 /* Assets.xcassets */,
 				6319C75A2A6844B40083DC17 /* LaunchScreen.storyboard */,
 				6319C75D2A6844B40083DC17 /* Info.plist */,
 			);
@@ -172,6 +171,7 @@
 			children = (
 				634C40F82A6C7FC900B6999E /* TrySecondOption.swift */,
 				634C40FA2A6C837E00B6999E /* SecondUiTable.swift */,
+				6319C7582A6844B40083DC17 /* Assets.xcassets */,
 			);
 			path = SecondOption;
 			sourceTree = "<group>";
@@ -288,7 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634C40FF2A6C947B00B6999E /* README in Resources */,
+				634C40FF2A6C947B00B6999E /* toDo in Resources */,
 				6319C75C2A6844B40083DC17 /* LaunchScreen.storyboard in Resources */,
 				6319C7592A6844B40083DC17 /* Assets.xcassets in Resources */,
 			);

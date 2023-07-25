@@ -59,7 +59,7 @@ class ViewController: UIViewController {
     }
 
     func setupBalls() {
-        let colors: [UIColor] = [.systemGray6, .orange, .white, .gray, .orange, .systemGray6]
+        let colors: [UIColor] = [.gray, .orange, .systemMint, .gray, .orange, .systemMint]
         for (index, color) in colors.enumerated() {
             let ball = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
             ball.backgroundColor = color

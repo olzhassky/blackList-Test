@@ -12,7 +12,6 @@ class MenuViewController: UIViewController {
     
     let homeButton: UIButton = {
         let button = UIButton()
-        // button.backgroundColor = .systemGray6
         button.setTitle("Главный экран", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -21,7 +20,6 @@ class MenuViewController: UIViewController {
     }()
     let buyButton: UIButton = {
         let button = UIButton()
-        // button.backgroundColor = .systemGray6
         button.setTitle("Список покупок", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -30,7 +28,6 @@ class MenuViewController: UIViewController {
     }()
     let settingButton: UIButton = {
         let button = UIButton()
-        //button.backgroundColor = .systemGray6
         button.setTitle("Настойки", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -39,7 +36,6 @@ class MenuViewController: UIViewController {
     }()
     let secondBuy: UIButton = {
         let button = UIButton()
-        //button.backgroundColor = .systemGray6
         button.setTitle("Второй метод", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
