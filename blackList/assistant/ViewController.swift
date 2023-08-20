@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         setupImage()
         makeConstraints()
         setupBalls()
+        navigationController?.interactivePopGestureRecognizer?.delegate = nil
     }
 
     func setupImage() {

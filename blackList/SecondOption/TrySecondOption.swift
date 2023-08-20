@@ -46,6 +46,7 @@ class SecondOption: UIViewController {
         view.addSubview(dairy)
         makeConstraints()
         
+        
     }
     func setupNavigationBar() {
         let backButton = UIBarButtonItem(title: "Назад", style: .plain, target: self, action: #selector(backButtonTapped))
